@@ -59,7 +59,7 @@ nav img {
 }
 
 .box {
-  background-image: url(img/Coffee\ background.png);
+  background-image: url(./Coffee\ background.png);
   height: 216px;
   aspect-ratio: 1;
   border-radius: 10px;
