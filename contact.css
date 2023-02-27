@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato";
+}
+
+header {
+  background-color: #0f8b8d;
+  border-radius: 30px 30px 0px 0px;
+}
+
+nav {
+  display: flex;
+  padding: 39px 138px;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  column-gap: 50px;
+}
+
+nav ul li {
+  color: beige;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+nav img {
+  width: 335px;
+  height: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+section h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 58px;
+  color: #0f8b8d;
+  padding: 20px 0px 20px 20px;
+}
+
+button {
+  width: 335px;
+  height: 70px;
+  background-color: #a8201a;
+  border-radius: 55px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: beige;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 50px 100px;
+  row-gap: 20px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+}
+
+form label {
+  width: 200px;
+  height: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #143642;
+}
+
+form input {
+  box-sizing: border-box;
+  width: 493px;
+  height: 71px;
+  background: #ffffff;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+}
+form textarea {
+  box-sizing: border-box;
+  width: 493px;
+  background: #ffffff;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+}
+
+form button {
+  margin: 0px auto;
+}
+
+footer {
+  background-color: #143642;
+  display: flex;
+  padding: 80px 140px;
+  color: beige;
+  column-gap: 200px;
+  border-radius: 30px 30px 0 0;
+}
+.logos {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+}
+.logo img {
+  width: 335px;
+}
+.contact {
+  display: flex;
+  column-gap: 27px;
+}
+.contact img {
+  height: 32px;
+  width: auto;
+  filter: invert(100%);
+}
+.wrapper {
+  display: flex;
+  column-gap: 150px;
+}
+
+.wrapper ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+li.head {
+  color: rgba(236, 154, 41, 1);
+}
+.wrapper ul li {
+  list-style: none;
+  min-width: 140px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
